@@ -1,4 +1,4 @@
-package ru.netology.moneytransferservice.repository;
+package ru.netology.moneytransfer.repository;
 
 import java.util.ArrayList;
 import java.util.List;
