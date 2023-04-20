@@ -1,0 +1,13 @@
+FROM node:12
+
+EXPOSE 3000
+
+WORKDIR /app
+
+COPY /home/vvk/React/card-transfer/package.json ./
+
+RUN npm install
+
+COPY /home/vvk/React/card-transfer . 
+
+CMD ["npm", "start", "run"]

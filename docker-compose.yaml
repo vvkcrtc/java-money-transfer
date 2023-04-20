@@ -1,0 +1,12 @@
+version: '2.2'
+services:
+  money-transfer-app:
+    image:  money-transfer:latest
+    build: .
+    ports:
+      - '8080:8080'
+  money-transfer-front-app:
+    image:  card-transfer:latest
+    build: .
+    ports:
+      - '3000:3000'
